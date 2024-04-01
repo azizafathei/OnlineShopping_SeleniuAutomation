@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OnlineShoppingRegressionSuite">
+    <parameter name="browser" value="chrome"></parameter>
+    <test name="Regressiontest">
+        <classes>
+            <class name="Tests.SignupTC"></class>
+            <class name="Tests.LoginTC"></class>
+            <class name="Tests.SearchProductTC"></class>
+            <class name="Tests.AddProdReviewTC"></class>
+            <class name="Tests.ChangeQuantAddCartTC"></class>
+            <class name="Tests.ViewCartTC"></class>
+            <class name="Tests.PayTC"></class>
+            <class name="Tests.SubscribeTC"></class>
+            <class name="Tests.ContactusTC"></class>
+            <class name="Tests.LogoutTC"></class>
+
+
+        </classes>
+    </test>
+</suite>
