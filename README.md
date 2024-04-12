@@ -15,3 +15,5 @@ Test Cases Covered:
 -Verify subscription
 -Send Contact us form
 -Logout
+
+--register and login dara in excel file so every time you try to register plz change the email
